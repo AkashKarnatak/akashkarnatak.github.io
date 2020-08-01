@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gauss-Seidel</title>
+    <body>
+        <style src = "text/css">
+        body{
+            margin : 0px;
+        }
+
+        canvas{
+            border : 1px solid black;
+        }
+
+        </style>
+    </body>
+</head>
+<body>
+    <canvas></canvas><br>
+    <input type = "text" id = "a1" size="3"> x + <input type = "text" id = "b1" size="3"> y = <input type = "text" id = "c1" size="3"><br>
+    <input type = "text" id = "a2" size="3"> x + <input type = "text" id = "b2" size="3"> y = <input type = "text" id = "c2" size="3"><br>
+    x0 : <input type = "text" id = "x0" size="3"> <br> y0 : <input type = "text" id = "y0" size="3"><br>
+    <button type = "button" id = "Go" onclick="plot()">Go</button><br>
+    <button type = "button" id = "Wait-Seidel" onclick="wait_seidel()">Wait-Seidel</button> <button type = "button" id = "Gauss-Seidel" onclick="gauss_seidel()">Gauss-Seidel</button>
+    <script src = "line.js"></script>
+</body>
+</html>
