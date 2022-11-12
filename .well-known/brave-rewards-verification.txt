@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: akashkarnatak.github.io
+Token: fb267f69f4fa66a54d12f689b70a1923b1a701e26317b857805e503455eb1f61
