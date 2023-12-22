@@ -31,10 +31,35 @@
       margin-top: 30px;
     }
 
+    #footer {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2px;
+      font-size: 0.8rem;
+    }
+
+    #footer p {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-right: 5px;
+    }
+
+    #contactus {
+      margin-right: 5px;
+    }
+
+    a {
+      margin: 0;
+      padding: 0;
+    }
+
     @media (max-width: 800px) {
       #main {
         max-width: 80vw;
       }
+
       #grave {
         width: 50vw;
       }
@@ -44,6 +69,7 @@
       body {
         font-size: 1rem;
       }
+
       #grave {
         width: 80vw;
         margin: 15px auto;
@@ -152,11 +178,12 @@
       </p>
 
       <p>
-        Did I mention our entire project was open source? Meanwhile, I
-        received an issue on GitHub where a person wanted to chat with us.
-        When I contacted him, he requested permission to host his own version
-        of the website. Sure, why not? If we, IITians, couldn't crack it, why
-        not let this man try his luck? Whatever...
+        Did I mention our entire project was
+        <a id="github" href="https://github.com/AkashKarnatak/Ajnabee" target="_blank">open source</a>? Meanwhile, I
+        received an issue on GitHub where a person wanted to
+        chat with us. When I contacted him, he requested permission to host
+        his own version of the website. Sure, why not? If we, IITians,
+        couldn't crack it, why not let this man try his luck? Whatever...
       </p>
 
       <p>
@@ -190,6 +217,12 @@
       <p><i>Outro music plays</i></p>
 
       <p>Bye</p>
+    </div>
+
+    <div id="footer">
+      <p>&#169;Ajnabee 2023</p>
+      <a id="contactus" href="mailto://contact@ajnabee.live">Contact us</a>
+      <a id="github" href="https://github.com/AkashKarnatak/Ajnabee" target="_blank">GitHub</a>
     </div>
   </div>
 </body>
